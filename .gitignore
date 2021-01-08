@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Data_Pipelines
+/Data_Pipelines/plugins/__pycache__
+/Data_Pipelines/plugins/helpers/__pycache__
+/Data_Pipelines/plugins/operatores/__pycache__
+/Data_Pipelines/dags/__pycache__
