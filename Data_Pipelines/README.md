@@ -7,7 +7,7 @@ The source data resides in S3 and needs to be processed in Sparkify's data wareh
 
 ## tasks dependencies
 The dag follows the data flow as shown below.
-![](https://github.com/bayatim/udacityDataEngineeringProjects/blob/main/tasks_dependencies.png)
+![](https://github.com/bayatim/udacityDataEngineeringProjects/blob/main/Data_Pipelines/static/img/tasks_dependencies.png)
 
 ## Set up airflow server with docker
 Plenty of tutorials available for setting up the airflow server. We use docker for this purpose. I found [this link](https://github.com/puckel/docker-airflow) usefull.
