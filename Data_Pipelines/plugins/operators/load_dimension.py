@@ -21,11 +21,14 @@ class LoadDimensionOperator(BaseOperator):
         self.clear_content = clear_content
 
     def execute(self, context):
+        self.log.info('Creating redshift hook')
         redshift_hook = PostgresHook(postgres_conn_id=self.redshift_conn_id)
-
+        self.log.info('Redshift hook is created!')
+        
         if self.clear_content:
             self.log.info(f"Clearing data from dimention table {self.table}")
             redshift_hook.run(f"DELETE FROM {self.table}")
+            self.log.info(f'Dimention table {self.table} is emptied!')
         
         self.log.info('Start loading dimention table {self.table}')
         redshift_hook.run(self.sql_query)

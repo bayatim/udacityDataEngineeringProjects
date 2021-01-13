@@ -17,10 +17,12 @@ class CreateTableOperator(BaseOperator):
     def execute(self, context):
         self.log.info("Creating redshift sql hook")
         redshift = PostgresHook(postgres_conn_id=self.redshift_conn_id)
+        self.log.info('Redshift hook is created!')
         
         self.log.info("Readign query for creating table")
         create_table_query = open(self.query_path, 'r').read()
+        self.log.info(f'Following query to be executed: {create_table_query}')
         
-        self.log.info("creating table")
+        self.log.info("Creating table/s")
         redshift.run(create_table_query)
-        self.log.info("Table is created")
+        self.log.info("Table/s created")
