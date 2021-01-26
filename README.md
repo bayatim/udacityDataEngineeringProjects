@@ -32,5 +32,5 @@ Link : [Data_Pipelines_with_Apache_Airflow](https://github.com/bayatim/udacityDa
 ## Project 6 - #TODO
 #TODO
 
-Link : [Data_Engineering_Capstone](#TODO put the github link here)
+Link : [Data_Engineering_Capstone](https://github.com/bayatim/udacityDataEngineeringProjects/tree/main/Data_Engineering_Capstone)
 
