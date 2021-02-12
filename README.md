@@ -8,7 +8,6 @@ In this project, we’ll model user activity data for a music streaming app call
 
 Link : [Data_Modeling_with_Postgres](https://github.com/bayatim/udacityDataEngineeringProjects/tree/main/Data_Modeling_with_Postgres)
 
-#TODO LInk
 ## Project 2 - Data Modeling with Apache Cassandra
 In this project, we’ll model user activity data for a music streaming app called Sparkify. We’ll create a database and import data stored in CSV and JSON files, and model the data. You’ll do this with a NoSQL data model with Apache Cassandra. We’ll design the data models to optimize queries for understanding what songs users are listening to. For Apache Cassandra, we will model our data to help the data team at Sparkify answer queries about app usage. We will set up your Apache Cassandra database tables in ways to optimize writes of transactional data on user sessions.
 
