@@ -29,7 +29,7 @@ In this project, we’ll continue your work on Sparkify’s data infrastructure 
 
 Link : [Data_Pipelines_with_Apache_Airflow](https://github.com/bayatim/udacityDataEngineeringProjects/tree/main/Data_Pipelines_with_Apache_Airflow)
 
-## Project 6 - #TODO
+## Project 6 - Data Engineering Capstone
 The goal of this project is to evaluate the impact of weather's temperature on immagrants movements over April, 2016 in USA. Apache Spark is used to extract and transform raw data, and make a datawarehouse in parquet file format. The star schema is used to develop a database, which will be effectively used for handling analytical queries.
 
 Link : [Data_Engineering_Capstone](https://github.com/bayatim/udacityDataEngineeringProjects/tree/main/Data_Engineering_Capstone)
