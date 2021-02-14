@@ -3,6 +3,10 @@
 ## The Project Journey
 The projects will take us on a journey where we’ll assume the role of a Data Engineer at a fabricated data streaming company called “Sparkify” as it scales its data engineering in both size and sophistication. We’ll work with simulated data of listening behavior, as well as a wealth of metadata related to songs and artists. We’ll start working with a small amount of data, with low complexity, processed and stored on a single machine. By the end, we’ll develop a sophisticated set of data pipelines to work with massive amounts of data processed and stored on the cloud. There are five projects in the program. Below is a description of each.
 
+## Course Materials
+This folder includes links to course materials as well as workspaces. Sample data are not included.
+
+Link : [Course_Materials](https://github.com/bayatim/udacityDataEngineeringProjects/tree/main/Course_materials)
 ## Project 1 - Data Modeling with Postgres
 In this project, we’ll model user activity data for a music streaming app called Sparkify. We’ll create a database and import data stored in CSV and JSON files, and model the data. We’ll do this with a relational model in Postgres. We’ll design the data models to optimize queries for understanding what songs users are listening to. For PostgreSQL, we will also define Fact and Dimension tables and insert data into your new tables.
 
